@@ -3,3 +3,9 @@ function lowerCaseDrivers(drivers) {
     return driver.toLowerCase();
   });
 }
+
+function nameToAttributes(drivers) {
+  return drivers.map(function (driver) {
+    return driver[firstName]
+  })
+}
