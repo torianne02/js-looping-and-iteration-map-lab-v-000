@@ -1,5 +1,5 @@
 function lowerCaseDrivers(drivers) {
-  Array.map(drivers) {
-    drivers.name.toLowerCase();
-  }
+  return drivers.map(function (driver) {
+    return driver.toLowerCase();
+  });
 }
